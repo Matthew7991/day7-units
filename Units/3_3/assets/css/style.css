@@ -9,5 +9,132 @@
 }
 
 :root {
-
+    --font-Maven: "Maven Pro";
+    --font-Gilda: "Gilda";
+    --font-Times: "Times";
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+/* ============= Header ============= */
+header {
+    background-color: #333333;
+    height: 100vh;
+}
+
+.logo {
+    font-family: var(--font-Maven);
+    font-weight: 700;
+    color: #949494;
+    padding-top: 20px;
+    padding-left: 20px;
+    letter-spacing: 0.125rem;
+}
+
+.head {
+    width: 300px;
+    /* height: 227px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(45deg, 
+    rgba(255, 0, 255, 0.475) 20%, 
+    rgba(39, 39, 240, 0.88) 50%, 
+    #48CEFA 100%);
+    border-radius: 8px;
+}
+
+.head:hover {
+    background: linear-gradient(-135deg, 
+    rgba(255, 0, 255, 0.475) 20%, 
+    rgba(39, 39, 240, 0.88) 50%, 
+    #48CEFA 100%);
+}
+
+.head h2 {
+    font-family: var(--font-Gilda);
+}
+
+.head h2 span:nth-of-type(2) {
+    line-height: 2em;
+}
+
+.head p {
+    font-family: var(--font-Maven);
+    padding-bottom: 1rem;
+}
+
+.header__nav {
+    text-align: right;
+    font-family: var(--font-Maven);
+    margin-top: 40px;
+} 
+
+.header__nav li {
+    padding-bottom: 1rem;
+}
+
+.header__nav li a{
+    color: #8C8C8C;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.header__nav li a:hover {
+    text-shadow: 0px 0px 10px #8C8C8C;
+}
+
+
+
+/* =============== Main =============== */
+
+.main__section {
+    margin: 385px 50px 0px 50px;
+}
+
+.main__section h1 {
+    font-family: var(--font-Times);
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.main__section > p {
+    font-family: var(--font-Maven);
+    padding-top: 3.5rem;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.main__section article {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    font-family: var(--font-Times);
+}
+
+
+/* .main__section article:last-of-type {
+    margin-bottom: 0px;
+} */
+
+.main__section article img {
+    margin-bottom: 2.25rem;
+}
+
+.main__section article h3 {
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
