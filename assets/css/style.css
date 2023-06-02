@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Energy";
+    src: url(../font/Green_Energy/Green_Energy.ttf);
+}
+
+:root {
+    --font-Energy: "Energy"
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+section {
+height: 100vh;
+background-image: url(../img/default.avif);
+}
+
+h1 {
+    font-family: var(--font-Energy);
+    font-size: 7rem;
+    color: #95D600;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fcfcfc;
+    font-size: 2rem;
+}
+
+a:hover + img {
+    display: block;
+}
+
+img {
+    display: none;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+}
