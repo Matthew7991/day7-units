@@ -18,8 +18,10 @@ body {
 }
 
 section {
-height: 100vh;
-background-image: url(../img/default.avif);
+    height: 100vh;
+    background-image: url(../img/default.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -38,13 +40,31 @@ a {
     font-size: 2rem;
 }
 
-a:hover + img {
+a:hover + p {
     display: block;
 }
 
-img {
+p {
     display: none;
     height: 50vh;
+    aspect-ratio: 16 / 10;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 1rem;
 }
+
+.image2_2 {
+    background-image: url(../img/2_2.PNG);
+    background-size: cover;
+    color: #fcfcfc;
+}
+
+.image3_2 {
+    background-image: url(../img/3_2.PNG);
+    background-size: cover;
+}   
+
+.image3_3 {
+    background-image: url(../img/3_3.PNG);
+    background-size: cover;
+}   
