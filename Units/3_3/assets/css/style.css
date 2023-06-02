@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Gilda";
+    src: url(../font/Gilda_Display/GildaDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Maven Pro";
+    src: url(../font/Maven_Pro/MavenPro-VariableFont_wght.ttf);
+}
+
+:root {
+
+}
