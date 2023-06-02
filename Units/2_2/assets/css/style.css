@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-image: url(../img/background_img.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+article {
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10vh;
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    background-color: hsla(0, 0%, 60%, 0.3);
+    font-size: 4em;
+    padding: 20px;
+
+}
