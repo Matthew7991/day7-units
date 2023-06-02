@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: rgb(160, 160, 160);
+    --text-color-dark: rgb(78, 78, 78);
+    --text-color-trans: rgba(200, 200, 200, 0.5);
+    --border-color: hsl(0, 0%, 65%);
+    --text-shadow: hsl(0, 0%, 40%);
+}
+
+body {
+    background-image: url(../img/background_error_.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    color: var(--text-color-trans);
+    /* text-shadow: 2px 2px 4px var(--text-shadow); */
+}
+
+main {
+    margin-top: 15vh;
+}
+
+h3 {
+    color: var(--text-color);
+}
+
+h2 {
+    font-size: 12rem;
+}
+
+h1 {
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+p {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    /* background-color: var(--text-color-trans); */
+    color: var(--text-color-dark);
+    padding: 0.5rem;
+}
+
+a {
+    display: inline-block;
+    font-size: 0.75rem;
+    margin-top: 8rem;
+    border: 1px solid var(--border-color);
+    padding: 1em;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
